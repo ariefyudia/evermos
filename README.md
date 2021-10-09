@@ -6,10 +6,13 @@
 ## Installation
 ### Commands
 1. Run `composer install`
-2.  Create .env file, please add config in Environment Section below
+2.  Create .env file
 3. Run `php artisan key:generate`
 4. Run `php artisan migrate --seed`
 5. Run `php artisan jwt:secret`
+
+### Run Application
+- Run `php artisan serve`
 
 ## Packages
 - [JWT by Sean Tymon](https://github.com/tymondesigns/jwt-auth).
@@ -27,4 +30,7 @@
 - Pada setiap endpoint transaction (cart, checkout dan pay) dilakukan pengecekan pada stock dan diberikat expired at
 - Pengurangan stock akan dilakukan ketika proses pay telah berhasil
 - Log disimpan pada file laravel.log yang ada pada folder \storage\logs
+
+## Documentation API
+https://documenter.getpostman.com/view/3047490/UUy7c53N
 
