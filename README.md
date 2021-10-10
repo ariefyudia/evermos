@@ -6,10 +6,9 @@
 ## Installation
 ### Commands
 1. Run `composer install`
-2.  Create .env file
+2. Copy file .env.example and rename to .env
 3. Run `php artisan key:generate`
 4. Run `php artisan migrate --seed`
-5. Run `php artisan jwt:secret`
 
 ### Run Application
 - Run `php artisan serve`
